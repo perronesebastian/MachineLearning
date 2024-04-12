@@ -1,6 +1,6 @@
 # MachineLearning
 
-ParserService -> parsea los datos de un archivo .arff
+ParserService -> parsea los datos de un archivo dataset .arff
 
 CorrelationDataService -> busca correlaciones entre los diferentes datos que se obtienen al ejectutar el ParserService
 
