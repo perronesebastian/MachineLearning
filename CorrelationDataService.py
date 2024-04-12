@@ -1,9 +1,9 @@
 from sklearn.preprocessing import LabelEncoder
-import ParserService as fileParser
+import ParserService as parserService
 
 def search_correlation(data_path):
     #Obtenemos una copia y parseo del dataset
-    df = fileParser.getDataSet(data_path)
+    df = parserService.getDataSet(data_path)
     # Transformamos los valores del atributo class de categoricos a numéricos
     labelencoder = LabelEncoder()
     df["class"] = labelencoder.fit_transform(df["class"])
